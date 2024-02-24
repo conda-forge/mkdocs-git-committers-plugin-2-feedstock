@@ -1,5 +1,5 @@
 {% set name = "mkdocs-git-committers-plugin-2" %}
-{% set version = "2.2.3" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocs-git-committers-plugin-2-{{ version }}.tar.gz
-  sha256: e0dddef4e3e321d97bcb83123fd963a839d9f9fa801c3125efeb6544bd8b247c
+  sha256: d6baca1ae04db8120640038eda8142f2d081c27b53f3b566c83c75717e4ed81a
 
 build:
   noarch: python
